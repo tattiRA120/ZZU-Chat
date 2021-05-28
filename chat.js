@@ -18,7 +18,7 @@ function readMessage() {
 function writeMessage() {
 	$.ajax({
 		type: 'post',
-		url: './main.php',
+		url: './chatMain.php',
 		data: {
 			'message' : $("#message").val()
 		}
