@@ -9,7 +9,7 @@ function readMessage() {
             		$('#messageTextBox').html(log);
 		},
 		function () {
-			alert("“Ç‚İ‚İ¸”s");
+			alert("èª­ã¿è¾¼ã¿å¤±æ•—");
 		}
 	);
 }
@@ -29,7 +29,7 @@ function writeMessage() {
 			$("#message").val('');
 		},
 		function () {
-			alert("‘‚«‚İ¸”s");
+			alert("æ›¸ãè¾¼ã¿å¤±æ•—");
 		}
 	);
 }
